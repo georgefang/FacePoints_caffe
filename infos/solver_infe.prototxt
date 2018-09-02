@@ -1,0 +1,15 @@
+net: "infos/val_hgm.prototxt"
+test_iter: 100
+test_interval: 1000
+test_initialization: false
+display: 1000
+average_loss: 1
+base_lr: 0.00025
+lr_policy: "step"
+stepsize: 2000
+max_iter: 50000
+momentum: 0.0
+gamma: 0.999
+snapshot: 2000
+snapshot_prefix: "example/models/hg_models"
+solver_mode: CPU
